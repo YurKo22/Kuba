@@ -173,18 +173,18 @@ body {
    margin-bottom: 72px;
 }
 
-.about_item {
+.about__item {
    margin-bottom: 100px;
 }
 
-.about_box {
+.about__box {
    padding: 33px 40px 18px 40px;
    background-color: #fff;
-   min-width: 470px;
+   max-width: 470px;
    position: relative;
 }
 
-.about_box-title {
+.about__box-title {
    font-family: "Georgia";
    font-size: 24px;
    line-height: 25px;
@@ -192,5 +192,3 @@ body {
    margin-bottom: 20px;
 }
 
-.about_box-text {
-}
