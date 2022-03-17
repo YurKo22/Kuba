@@ -43,6 +43,7 @@
         line-height: 38px;
         text-align: center;
         color: #4e5665;
+        font-weight: 400;
     }
     
     .header_top {
@@ -241,6 +242,39 @@
         border-left: 2px solid #ecb84c;
     }
     
+    .about__preview-title {
+        margin-bottom: 38px;
+    }
+    
+    .about__preview-text {
+        margin: 53px auto 80px;
+    }
+    
+    .about__images-box {
+        padding-top: 73px;
+    }
+    
+    .about__dot {
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        background: rgba(236, 184, 76, 0.75);
+        position: relative;
+        cursor: pointer;
+    }
+    
+    .about__dot::after {
+        content: "";
+        position: absolute;
+        height: 10px;
+        width: 10px;
+        border-radius: 50%;
+        background: #ECB84C;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
     .photo {
         padding: 80px 0;
     }
@@ -268,6 +302,7 @@
     .photo__slider {
         max-width: 640px;
         margin: 0 auto;
+        filter: drop-shadow(0px 2px 24px rgba(0, 0, 0, 0.3));
     }
     
     .slick-arrow {
