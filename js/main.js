@@ -5,8 +5,16 @@ $(function() {
         nextArrow: '<button type="button" class="slick-next"><img src="images/arrow-right.svg" alt=""></button>',
     });
 
-    $('.menu__btn').on('click', function() {
-        $('.menu__list').slideToggle();
+    //  $('').on('click', function() {
+    //      $('.menu__list').slideToggle();
+    //  });
+
+    //  $(".menu__btn").on("click", function() {
+    //      $(".menu__list").slideToggle("slow");
+    //  });
+
+    $(".menu__btn").click(function() {
+        $(".menu__list").slideToggle();
     });
 
 });
