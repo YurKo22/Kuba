@@ -252,6 +252,7 @@
     
     .about__images-box {
         padding-top: 73px;
+        position: relative;
     }
     
     .about__dot {
@@ -259,8 +260,13 @@
         height: 32px;
         border-radius: 50%;
         background: rgba(236, 184, 76, 0.75);
-        position: relative;
+        position: absolute;
         cursor: pointer;
+    }
+    
+    .about__dot--3 {
+        top: 147px;
+        right: 374px;
     }
     
     .about__dot::after {
