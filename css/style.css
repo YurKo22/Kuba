@@ -470,7 +470,7 @@
                                     max-width: 100%;
                                 }
                                 
-                                . @media (max-width: 1075px) {
+                                @media (max-width: 1075px) {
                                     .about__dot--1 {
                                         top: 150px;
                                         left: 75px;
@@ -489,7 +489,7 @@
                                     }
                                 }
                                 
-                                . @media (max-width: 840px) {
+                                @media (max-width: 840px) {
                                     .about__item {
                                         padding: 382px 0 70px;
                                         background-position: top;
@@ -500,6 +500,9 @@
                                     }
                                     .about__item:nth-child(even) {
                                         background-position: top;
+                                    }
+                                    .about__dot {
+                                        display: none;
                                     }
                                 }
                                 
