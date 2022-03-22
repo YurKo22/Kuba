@@ -550,6 +550,9 @@
                                         .menu {
                                             position: relative;
                                         }
+                                        .reason__statistics {
+                                            display: block;
+                                        }
                                         .menu__btn {
                                             display: block;
                                             width: 40px;
@@ -632,7 +635,7 @@
                                             line-height: 24px;
                                         }
                                         .reason__statistics {
-                                            display: block;
+                                            display: flex;
                                         }
                                         .reason__statistics-item {
                                             margin-bottom: 35px;
